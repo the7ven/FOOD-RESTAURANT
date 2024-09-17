@@ -61,6 +61,12 @@
         width: 100%;
         align-items: center;
     }
+
+    .chef-image img{
+        border-radius: 50%;
+        width: 200px;
+    }
+    
 }
 
 @media (max-width: 480px) {
