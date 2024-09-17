@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: all ease .2s;
+    
+}
+
+.nav-menu li a:hover{
+    color: #f39c12;
+   
+}
+
+.reserve-btn1 {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reserve-btn1:hover{
+   background-color: #000000;
+   color: #f39c12;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    gap: 0px;
+    margin-top: 50px;
+}
+
+.hero h2 {
+    text-align: center;
+    font-size: 5rem;
+
+}
+
+.hero p {
+ font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #333;
+    font-weight: bold;
+}
+
+.explore-btn:hover{
+    color: #000000;
+}
+
+.search{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000000;
+    border-radius: 30px;
+    border: 1px solid #333;
+    font-weight: bold;
+}
+
+.search:hover{
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.popular-dishes {
+   
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.popular-dishes h2 {
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+.dishes-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.dish {
+    text-align: center;
+ 
+}
+
+.dish img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: all ease .3s;
+}
+
+.dish img:hover{
+   
+    transform: scale(1.3);
+  }
+
+
+.dish h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.dish p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dish button {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+
+.dish button:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+
+.chef-image img{
+    border-radius: 50%;
+    width: 330px;
+}
+
+.text-services{
+    line-height: 50px;
+}
+
+.text-services p{
+    font-weight: bold;
+    color: #e4931a;
+   
+}
+
+.about_us-btn{
+    
+    text-decoration: none ;
+    color: #ffffff;
+    background-color: #f39c12;
+    padding: 10px  20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.about_us-btn:hover{
+    color: #000000;
+}
+
+.menu {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.menu h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.menu-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.menu-btn1{
+  
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #e4931a ;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.menu-btn1:hover{
+     background-color: #e4931a;
+     color: #fff;
+}
+
+.reservation {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.reserve-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resa{
+    background-image: url(images/espacerestaurant\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    line-height: 150px;
+}
+
+.text-resa h2{
+    color: #000000;
+    font-size: 4rem;
+}
+
+
+
+.testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial{
+    margin: 20px;
+}
+.testimonial img{
+    border-radius: 100%;
+}
+
+.testimonials-grid{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.chefs {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.chefs-grid{
+    display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+.chef img{
+    border-radius: 50%;
+}
+
+.app-download {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.app-resa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.mobile-app img{
+    width: 300px;
+}
+
+.app-btn {
+    
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all ease .3s;
+}
+
+.app-btn:hover{
+    background-color: #000000;
+    color:  #f39c12;;
+
+}
+
+
+.footer {
+    padding: 20px 0;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}

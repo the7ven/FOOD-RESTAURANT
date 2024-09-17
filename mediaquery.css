@@ -1,0 +1,82 @@
+/* Styles pour les petits écrans (tablettes et smartphones) */
+@media (max-width: 768px) {
+    .navbar {
+     
+      flex-direction: column;
+      gap: 10px;
+       
+       
+    }
+
+    .hero{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .hero-text h2{
+        font-size: 2rem;
+    }
+
+    .hero-image img{
+        width: 250px;
+    }
+
+    .dishes-grid, .menu-grid, .testimonials-grid, .chefs-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish, .chef, .testimonial {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .reserve-btn {
+        padding: 10px 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .app-resa{
+        flex-direction: column;
+    }
+
+    .mobile-app img{
+        width: 150px;
+    }
+
+    .text-resa h2{
+        font-size: 1.5rem;
+    }
+
+    .resa{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .dishes-grid, .menu-grid, .chefs-grid {
+        flex-direction: column;
+    }
+
+    .dish img, .chef img {
+        width: 80px;
+    }
+}
